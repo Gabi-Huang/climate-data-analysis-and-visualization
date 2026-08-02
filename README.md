@@ -138,10 +138,10 @@ Random Forest models are combined with SHAP analysis to identify important clima
 
 ---
 
-# Author
+## Author
 
-Shih Hsiang (Gabriel) Huang
+**Shih Hsiang (Gabriel) Huang**
 
-Climate Change and Sustainability Consultant
+Interested in climate modeling, energy systems, sustainable finance, non-financial analysis, and data-driven approaches for climate and environmental research.
 
-Interested in climate modeling, energy systems, and data-driven environmental analysis.
+LinkedIn: www.linkedin.com/in/gab-huang
