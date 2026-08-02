@@ -95,26 +95,27 @@ Implemented models:
 
 ---
 
-# Project Workflow
-Climate Dataset
-|
-↓
-Data Processing & Quality Control
-|
-↓
-Climate Anomaly Analysis
-|
-↓
-ENSO Event Classification
-|
-↓
-Composite / Regression / EOF Analysis
-|
-↓
-Machine Learning Classification
-|
-↓
-SHAP Model Interpretation
+## Project Workflow
+
+```mermaid
+flowchart TD
+    A[Climate Dataset<br/>SST & Precipitation Data] 
+    --> B[Data Processing<br/>Quality Control & Preprocessing]
+
+    B --> C[Climate Anomaly Analysis]
+
+    C --> D[ENSO Event Classification<br/>El Niño / La Niña]
+
+    D --> E[Composite Analysis<br/>ENSO Climate Response]
+
+    E --> F[Correlation & Regression Analysis]
+
+    F --> G[EOF Analysis<br/>Climate Mode Extraction]
+
+    G --> H[Machine Learning Classification<br/>Random Forest]
+
+    H --> I[SHAP Model Interpretation]
+```
 
 
 ---
